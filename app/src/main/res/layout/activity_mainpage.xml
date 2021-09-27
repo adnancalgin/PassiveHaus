@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cactus"
+    tools:context="com.example.pc.passivhaus.Mainpage">
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="495dp"
+        android:padding="10dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="308dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_gravity="center_horizontal"
+        android:text="Pasif EV Uygulamasına Hoşgeldiniz"
+        android:layout_marginBottom="20dp"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:text="          Ev Numaranız"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textPostalAddress"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <Button
+        android:id="@+id/gunes"
+        android:layout_width="288dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:text="Güneş Paneli Verileri için Tıklayınız"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="280dp" />
+
+    <Button
+        android:id="@+id/geridonusum"
+        android:layout_width="288dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:text="Geri Dönüşüm Verileri için Tıklayınız"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+        <Button
+            android:id="@+id/yagmursuyu"
+            android:layout_width="288dp"
+            android:layout_marginBottom="20dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Yagmur Suyu Verileri için Tıklayınız"
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="380dp" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
